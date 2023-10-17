@@ -8,10 +8,12 @@ import DibujosComplejos from './Components/DibujosComplejos';
 import DibujosComplejosReact from './Components/DibujosComplejosReact';
 import HijoDeporte from './Components/HijoDeporte';
 import PadreDeportes from './Components/PadreDeportes';
+import Suma from './Components/Suma';
+import SumaHijo from './Components/SumaHijo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PadreDeportes />
+    <Suma />
 
   </React.StrictMode>
 );
